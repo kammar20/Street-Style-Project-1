@@ -1,0 +1,208 @@
+/* utility */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  background-color: #fff;
+}
+
+/* common */
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+/* full page wrapper */
+.full-page-wrapper {
+  max-width: 1920px;
+  margin: auto;
+}
+
+/* container */
+.container {
+  padding: 60px 120px;
+}
+
+/***** navbar *****/
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* nav-menu */
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* nav-list */
+.list li {
+  color: #000;
+  margin: 0 24px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* li home */
+.list li:first-child {
+  position: relative;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.list li:first-child::after {
+  content: '';
+  border-bottom: 3px solid #000;
+  position: absolute;
+  width: 42px;
+  bottom: -4px;
+  left: 14px;
+}
+
+/* search button */
+.button-group {
+  display: flex;
+  align-items: center;
+}
+
+.nav-button {
+  display: inline-block;
+  padding: 5px 40px;
+  background-color: #fff;
+  color: #5a5a5a;
+  border: 3px solid #000;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+/***** Hero Container *****/
+.hero-container {
+  position: relative;
+}
+
+/* globe img */
+.globe img {
+  width: 53px;
+  position: absolute;
+  top: 45px;
+  right: 554px;
+}
+
+/* star img */
+.star img {
+  width: 50px;
+  position: absolute;
+  top: 85px;
+  right: 20px;
+}
+
+/* square img */
+.square img {
+  width: 285px;
+  position: absolute;
+  top: 300px;
+  left: 141px;
+}
+
+/* model img */
+.hero-container div > img {
+  position: relative;
+  top: 78px;
+  left: 0;
+  width: 370px;
+  z-index: 1;
+}
+
+/****** right side text *****/
+.hero-container-right {
+  position: absolute;
+  left: 500px;
+  text-align: center;
+  top: 200px;
+}
+
+/* text head */
+.hero-heading {
+  position: relative;
+  top: -34px;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 56px;
+}
+
+/* text para */
+.hero-description {
+  width: 600px;
+  margin: 0 auto 80px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  color: #5a5a5a;
+}
+
+/* email and join-now button group */
+.hero-description + div {
+  margin-bottom: 70px;
+}
+
+/* button email */
+div > .button-email {
+  display: inline-block;
+  border: 3px solid #333;
+  background-color: #fff;
+  color: #5a5a5a;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 3px 20px;
+  border-radius: 10px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+
+/* button join now */
+div > .button-join {
+  display: inline-block;
+  border: 3px solid #333;
+  background-color: #000;
+  color: #fff;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 16px;
+  font-weight: 800px;
+  padding: 3px 30px;
+  border-radius: 10px;
+  letter-spacing: 2px;
+}
+
+.small-star img {
+  width: 36px;
+  position: absolute;
+  bottom: 33px;
+  left: 43px;
+}
+
+/* contact heading above social icon icons */
+.contact-heading {
+  font-family: 'Poppins', sans-serif;
+  color: #5a5a5a;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+/* social icons */
+.icons span img {
+  width: 30px;
+  margin: 0 5px;
+}
