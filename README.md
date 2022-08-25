@@ -1,4 +1,4 @@
-# Street Style Landing Page [![iNeuron](./assets/iNeuron-badge.svg)](https://ineuron.ai/)
+# Street Style Landing Page | [![iNeuron](./assets/iNeuron-badge.svg)](https://ineuron.ai/)
 
 Hello,
 
